@@ -1,3 +1,4 @@
+// background carousel for header
 $(document).ready(function() {
     var images = [
       "url('./images/slide\ show=show\ 1.png')",
@@ -22,3 +23,13 @@ $(document).ready(function() {
 
     changeBackground();
 });
+
+// active state of the navigation
+// $(document).ready(function() {
+//     var path = window.location.pathname;
+//     $('.nav-cards').each(function() {
+//       if ($(this).attr('href') === path) {
+//         $(this).addClass('active');
+//       }
+//     });
+// });

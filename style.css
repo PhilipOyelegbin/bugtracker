@@ -1,5 +1,5 @@
 .carousel-item {
-    height: 100vh;
+    height: 100svh;
     background-size: cover;
     background-position: center;
 }
@@ -16,21 +16,53 @@
     padding: 10px;
     border-radius: 10px;
     color: #2e6cdf;
+    width: 120px;
+    height: 150px;
+    position: relative;
+}
+
+.nav-cards > a {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     text-align: center;
-    width: 120px;
-    height: 150px;
+    height: 100%;
 }
 
-.nav-cards > h5 {
+.nav-cards > a > h5 {
     color: #fff;
 }
 
-.nav-cards :active {
+/* .nav-cards :active {
     background-color: #2e6cdf;
     color: #fff;
+} */
+
+.nav-cards :hover {
+    background-color: #2e6cdf;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: inherit;
+    height: inherit;
+}
+
+.gallery-container {
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    /* border-radius: 10px; */
+    width: 260px;
+    height: 200px;
+    position: relative;
+}
+
+.gallery-item > img {
+    border-radius: inherit;
+    width: inherit;
+    height: inherit;
 }
