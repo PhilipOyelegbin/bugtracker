@@ -1,0 +1,3188 @@
+.landing-page,
+.landing-page * {
+  box-sizing: border-box;
+}
+.landing-page {
+  background: #ffffff;
+  width: 1440px;
+  height: 10591px;
+  position: relative;
+}
+.hero-section {
+  background: #b1b1b4;
+  width: 1440px;
+  height: 628px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.rectangle-23 {
+  width: 1440px;
+  height: 625px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-232 {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 573px);
+  top: calc(50% - 111px);
+}
+.frame-61 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-6 {
+  background: #0784c3;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 140px;
+  height: 220px;
+  position: relative;
+  box-shadow: -2px 4px 4px 0px rgba(3, 53, 78, 0.2);
+}
+.mdi-panorama-variant-outline {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: visible;
+}
+.showcase {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-7 {
+  background: rgba(19, 19, 20, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  height: 200px;
+  position: relative;
+}
+.mdi-information {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: visible;
+}
+.about-us {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-3 {
+  background: rgba(19, 19, 20, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  height: 200px;
+  position: relative;
+}
+.star-1 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: visible;
+}
+.courses {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-4 {
+  background: rgba(19, 19, 20, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  height: 200px;
+  position: relative;
+}
+.mdi-folder-open {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: visible;
+}
+.programs {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-5 {
+  background: rgba(19, 19, 20, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  height: 200px;
+  position: relative;
+}
+.mdi-laptop {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: visible;
+}
+.e-learning {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-8 {
+  background: rgba(19, 19, 20, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  height: 200px;
+  position: relative;
+}
+.mdi-account-group {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: visible;
+}
+.community {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-10 {
+  background: rgba(19, 19, 20, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  height: 200px;
+  position: relative;
+}
+.mdi-newspaper-variant-outline {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: visible;
+}
+.blog-news {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-9 {
+  background: rgba(19, 19, 20, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 130px;
+  height: 200px;
+  position: relative;
+}
+.mdi-paperclip {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.register {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.showcase2 {
+  background: #131314;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1440px;
+  height: 652px;
+  position: absolute;
+  left: 0px;
+  top: 628px;
+  overflow: hidden;
+}
+.frame-43 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+}
+.showcase-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.group-16 {
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: static;
+}
+.rectangle-2 {
+  background: linear-gradient(
+    to left,
+    rgba(7, 132, 195, 0.7),
+    rgba(7, 132, 195, 0.7)
+  );
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 0px 0px 0px 2px;
+  width: 288px;
+  height: 160px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.group-15 {
+  width: 40px;
+  height: 40px;
+  position: static;
+}
+.ellipse-13 {
+  background: var(--black-500, #131314);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 124px;
+  top: 60px;
+}
+.material-symbols-add {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 588px);
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.rectangle-6 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 0px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-3 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 0px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-4 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 0px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-5 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 0px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.showcase-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.rectangle-1 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 0px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-62 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-8 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-22 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-42 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.showcase-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.rectangle-7 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-52 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.showcase-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+}
+.rectangle-32 {
+  border-style: solid;
+  border-color: var(--black-500, #131314);
+  border-width: 2px 0px 0px 2px;
+  flex-shrink: 0;
+  width: 288px;
+  height: 160px;
+  position: relative;
+  object-fit: cover;
+}
+.why-wificombat-academy {
+  background: #e3d6f5;
+  width: 1440px;
+  height: 1229px;
+  position: absolute;
+  left: 0px;
+  top: 2899px;
+  overflow: hidden;
+}
+.frame-16 {
+  border-radius: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 557px;
+  position: absolute;
+  left: 788px;
+  top: 222px;
+}
+.we-have-recognized-the-importance-of-technology-at-an-early-age-for-children-and-teens-and-we-know-the-importance-of-developing-our-teens-to-become-global-problem-solvers {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-body-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-body-font-size, 16px);
+  line-height: var(--raleway-regular-body-line-height, 150%);
+  font-weight: var(--raleway-regular-body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-26 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  width: 618px;
+  position: absolute;
+  left: 64px;
+  top: 781px;
+}
+.rectangle-15 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #131314;
+  border-width: 4px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 324px;
+  position: relative;
+  object-fit: cover;
+}
+.wfifcombat-parent {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-5-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-5-font-size, 30px);
+  line-height: var(--raleway-semi-bold-heading-5-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-5-font-weight, 600);
+  position: relative;
+}
+.rectangle-16 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #131314;
+  border-width: 4px;
+  width: 618px;
+  height: 380px;
+  position: absolute;
+  left: 64px;
+  top: 127px;
+  object-fit: cover;
+}
+.frame-27 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  width: 618px;
+  position: absolute;
+  left: 758px;
+  top: 781px;
+}
+.wificombat-teens {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-5-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-5-font-size, 30px);
+  line-height: var(--raleway-semi-bold-heading-5-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-5-font-weight, 600);
+  position: relative;
+}
+.frame-102 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 778px;
+  position: absolute;
+  left: calc(50% - 389px);
+  top: 620px;
+}
+.hear-what-some-of-our-users-has-to-say {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-5-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-5-font-size, 30px);
+  line-height: var(--raleway-semi-bold-heading-5-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-5-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.discover-the-transformative-experiences-shared-by-our-amazing-users {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.why-wificombat-academy2 {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: absolute;
+  left: calc(50% - -68px);
+  top: 137px;
+}
+.primary-button {
+  background: #131314;
+  border-radius: 8px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  left: 788px;
+  top: 446px;
+}
+.register2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-body-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-body-font-size, 16px);
+  line-height: var(--raleway-semi-bold-body-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-body-font-weight, 600);
+  position: relative;
+}
+.bss-advert {
+  background: #ffffff;
+  border-radius: 48px;
+  border-style: solid;
+  border-color: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-width: 12px;
+  width: 1312px;
+  height: 536px;
+  position: absolute;
+  left: 64px;
+  top: 4683px;
+  overflow: hidden;
+}
+.frame-28 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 511px;
+  position: absolute;
+  left: calc(50% - 616px);
+  top: 32px;
+}
+.bss-post-secondary-school-undergraduates-postgraduates-professionals-entry-level-to-tech {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-heading-6-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-6-font-size, 24px);
+  line-height: var(--raleway-semi-bold-heading-6-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-heading-6-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.are-you-curious-about-tech-but-don-t-know-how-to-start-perhaps-you-re-gearing-up-for-a-degree-but-need-a-head-start-in-a-tech-career-beforehand-or-maybe-you-re-looking-to-make-a-career-switch-to-tech-at-beyond-secondary-cv-schools-a-subsidiary-of-wificombat-academy-we-understand-the-changing-workforce-landscape-that-s-why-we-offer-career-pathways-for-technology-designed-for-postgraduate-secondary-students-undergraduates-graduates-and-professionals-seeking-success-in-the-workforce {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.primary-button2 {
+  background: #131314;
+  border-radius: 8px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  position: absolute;
+  left: 44px;
+  top: 446px;
+}
+.register3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(--raleway-bold-body-font-family, "Raleway-Bold", sans-serif);
+  font-size: var(--raleway-bold-body-font-size, 16px);
+  line-height: var(--raleway-bold-body-line-height, 150%);
+  font-weight: var(--raleway-bold-body-font-weight, 700);
+  position: relative;
+}
+.img-20210920-wa-0006-1 {
+  width: 837.52px;
+  height: 536px;
+  position: absolute;
+  left: 581px;
+  top: 0px;
+  object-fit: cover;
+}
+.get-in-touch {
+  background: #b1b1b4;
+  width: 1440px;
+  height: 490px;
+  position: absolute;
+  left: 0px;
+  top: 8089px;
+  overflow: hidden;
+}
+.rectangle-31 {
+  width: 1440px;
+  height: 770px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-28 {
+  background: rgba(38, 0, 44, 0.7);
+  width: 1440px;
+  height: 490px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  backdrop-filter: blur(2px);
+}
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 732px;
+  position: absolute;
+  left: calc(50% - 366px);
+  top: 128px;
+}
+.join-wificombat-academy-community {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: relative;
+}
+.connecting-educators-institutions-and-government-for-21st-century-learning-solutions {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.primary-button3 {
+  background: #131314;
+  border-radius: 8px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  position: absolute;
+  left: 620px;
+  top: 289px;
+}
+.footer {
+  background: #131314;
+  width: 1440px;
+  height: 606px;
+  position: absolute;
+  left: 0px;
+  top: 9985px;
+  overflow: hidden;
+}
+.wificomabt-academy {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: absolute;
+  left: 64px;
+  top: 146px;
+}
+.we-offer-free-consultation-you-can-book-a-consultation-section-with-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-medium-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-medium-font-size, 20px);
+  line-height: var(--raleway-regular-medium-line-height, 150%);
+  font-weight: var(--raleway-regular-medium-font-weight, 400);
+  position: absolute;
+  left: 64px;
+  top: 213px;
+  width: 423px;
+}
+.frame-25 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 130px;
+  position: absolute;
+  left: 1066px;
+  top: 134px;
+}
+.get-in-touch2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.fa-qs {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-272 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 130px;
+  position: absolute;
+  left: 910px;
+  top: 134px;
+}
+.company {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.about-us2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.events {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.blog-news2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.community2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-282 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 130px;
+  position: absolute;
+  left: 754px;
+  top: 134px;
+}
+.products {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.programs2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.courses2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.bss {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.e-learning2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.consultation {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-262 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 130px;
+  position: absolute;
+  left: 1251px;
+  top: 134px;
+}
+.location {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.nigeria {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.canada {
+  color: #ffffff;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-mediums-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-mediums-font-size, 18px);
+  line-height: var(--raleway-regular-mediums-line-height, 150%);
+  font-weight: var(--raleway-regular-mediums-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.primary-button4 {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  position: absolute;
+  left: 64px;
+  top: 297px;
+}
+.register4 {
+  color: #131314;
+  text-align: center;
+  font-family: var(--raleway-bold-body-font-family, "Raleway-Bold", sans-serif);
+  font-size: var(--raleway-bold-body-font-size, 16px);
+  line-height: var(--raleway-bold-body-line-height, 150%);
+  font-weight: var(--raleway-bold-body-font-weight, 700);
+  position: relative;
+}
+.frame-21 {
+  background: #ffffff;
+  width: 1440px;
+  height: 118px;
+  position: absolute;
+  left: 0px;
+  top: 488px;
+  overflow: hidden;
+}
+.frame-22 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 318px;
+  position: absolute;
+  left: 1023px;
+  top: 39px;
+}
+.mdi-twitter {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.mdi-facebook {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.mdi-instagram {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.mdi-linkedin {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.frame-23 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 69px;
+  top: 44px;
+}
+.mdi-copyright {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+._2023-wificombat-all-right-reserved {
+  color: #131314;
+  text-align: left;
+  font-family: var(
+    --raleway-regular-medium-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-medium-font-size, 20px);
+  line-height: var(--raleway-regular-medium-line-height, 150%);
+  font-weight: var(--raleway-regular-medium-font-weight, 400);
+  position: relative;
+  width: 329px;
+}
+.impact-statistics {
+  background: #ffffff;
+  width: 1440px;
+  height: 491px;
+  position: absolute;
+  left: 0px;
+  top: 4128px;
+  overflow: hidden;
+}
+.frame-51 {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 549px);
+  top: 247px;
+}
+.group-11 {
+  flex-shrink: 0;
+  width: 240px;
+  height: 240px;
+  position: static;
+}
+.group-9 {
+  width: 240px;
+  height: 240px;
+  position: static;
+}
+.ellipse-10 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ellipse-11 {
+  background: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-34 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 495px);
+  top: calc(50% - 39px);
+}
+._20-000 {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-bold-heading-4-font-family,
+    "Raleway-Bold",
+    sans-serif
+  );
+  font-size: var(--raleway-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-bold-heading-4-font-weight, 700);
+  position: relative;
+}
+.students {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.group-13 {
+  flex-shrink: 0;
+  width: 240px;
+  height: 240px;
+  position: static;
+}
+.ellipse-102 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 286px;
+  top: 0px;
+}
+.ellipse-112 {
+  background: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 286px;
+  top: 0px;
+}
+.frame-342 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 189px);
+  top: calc(50% - 39px);
+}
+._300 {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-bold-heading-4-font-family,
+    "Raleway-Bold",
+    sans-serif
+  );
+  font-size: var(--raleway-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-bold-heading-4-font-weight, 700);
+  position: relative;
+}
+.programs3 {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.group-12 {
+  flex-shrink: 0;
+  width: 240px;
+  height: 240px;
+  position: static;
+}
+.ellipse-103 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 572px;
+  top: 0px;
+}
+.ellipse-113 {
+  background: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 572px;
+  top: 0px;
+}
+.frame-343 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - -103px);
+  top: calc(50% - 39px);
+}
+._500 {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-bold-heading-4-font-family,
+    "Raleway-Bold",
+    sans-serif
+  );
+  font-size: var(--raleway-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-bold-heading-4-font-weight, 700);
+  position: relative;
+}
+.schools {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.group-14 {
+  flex-shrink: 0;
+  width: 240px;
+  height: 240px;
+  position: static;
+}
+.ellipse-104 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 858px;
+  top: 0px;
+}
+.ellipse-114 {
+  background: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  left: 858px;
+  top: 0px;
+}
+.frame-344 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - -363px);
+  top: calc(50% - 39px);
+}
+._50-000 {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-bold-heading-4-font-family,
+    "Raleway-Bold",
+    sans-serif
+  );
+  font-size: var(--raleway-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-bold-heading-4-font-weight, 700);
+  position: relative;
+}
+.projects {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-medium-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-medium-font-size, 20px);
+  line-height: var(--raleway-semi-bold-medium-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-medium-font-weight, 600);
+  position: relative;
+}
+.frame-52 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 843px;
+  position: absolute;
+  left: calc(50% - 421px);
+  top: 64px;
+}
+.wificombat-academy-impact {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.we-have-been-in-operation-for-over-10-years-and-we-have-trained-students-educators-in-different-schools-done-various-projects-and-programs {
+  color: #131314;
+  text-align: center;
+  font-family: var(
+    --raleway-regular-medium-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-medium-font-size, 20px);
+  line-height: var(--raleway-regular-medium-line-height, 150%);
+  font-weight: var(--raleway-regular-medium-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.our-partners {
+  background: #ffffff;
+  width: 1440px;
+  height: 337px;
+  position: absolute;
+  left: 0px;
+  top: 8579px;
+  overflow: hidden;
+}
+.partners {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: absolute;
+  left: 64px;
+  top: 64px;
+}
+.frame-81 {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 183px;
+}
+.google-svg {
+  flex-shrink: 0;
+  width: 206px;
+  height: 64.55px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.microsoft-svg {
+  flex-shrink: 0;
+  width: 300px;
+  height: 64px;
+  position: relative;
+  overflow: visible;
+}
+.mtn-nigeria-svg {
+  flex-shrink: 0;
+  width: 129px;
+  height: 64.5px;
+  position: relative;
+  overflow: visible;
+}
+.guaranty-trust-bank-svg {
+  flex-shrink: 0;
+  width: 99px;
+  height: 97.29px;
+  position: relative;
+  overflow: hidden;
+}
+.page-1 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.data-science-nigeria-png {
+  flex-shrink: 0;
+  width: 179px;
+  height: 93.35px;
+  position: relative;
+  object-fit: cover;
+}
+.e-learning3 {
+  background: #ffffff;
+  width: 1440px;
+  height: 871px;
+  position: absolute;
+  left: 0px;
+  top: 5283px;
+}
+.e-learning-platform {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: absolute;
+  left: calc(50% - 656px);
+  top: 64px;
+}
+.rectangle-20 {
+  background: #bc00dd;
+  border-radius: 20px 0px 20px 0px;
+  width: 555px;
+  height: 562px;
+  position: absolute;
+  left: 821px;
+  top: 173px;
+}
+.frame-42 {
+  background: #ffffff;
+  border-radius: 20px 0px 20px 0px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 724px;
+  top: 241px;
+  box-shadow: -4px 4px 4px 0px rgba(165, 163, 163, 0.2);
+}
+.frame-41 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.wificombat-e-learning-platform {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-heading-5-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-5-font-size, 30px);
+  line-height: var(--raleway-semi-bold-heading-5-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-5-font-weight, 600);
+  position: relative;
+  width: 498px;
+}
+.frame-40 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 498px;
+  position: relative;
+}
+.wificombat-elearn-is-a-comprehensive-online-learning-platform-offering-a-tech-career-pathway-with-foundation-courses-for-key-stage-1-2-as-well-as-intermediary-and-advanced-courses-for-secondary-and-post-secondary-levels-the-diverse-curriculum-covers-game-design-development-multimedia-design-software-development-and-emerging-technologies-the-platform-creates-a-collaborative-space-through-its-online-tech-community-providing-dedicated-areas-for-pre-teens-and-teens-to-engage-in-discussions-forums-and-collaborative-projects {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-body-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-body-font-size, 16px);
+  line-height: var(--raleway-regular-body-line-height, 150%);
+  font-weight: var(--raleway-regular-body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.tech-career-guidance-features-counseling-resources-virtual-career-fairs-and-tools-to-explore-different-tech-roles-with-a-user-friendly-interface-collaboration-tools-regular-updates-and-gamification-elements-wificombat-elearn-ensures-an-accessible-secure-and-engaging-learning-environment-for-tech-enthusiasts-of-all-ages {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-body-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-body-font-size, 16px);
+  line-height: var(--raleway-regular-body-line-height, 150%);
+  font-weight: var(--raleway-regular-body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.primary-button5 {
+  background: #131314;
+  border-radius: 8px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 200px;
+  position: relative;
+}
+.rectangle-21 {
+  width: 652px;
+  height: 586px;
+  position: absolute;
+  left: 0px;
+  top: 173px;
+  object-fit: cover;
+}
+.what-we-do {
+  background: #ffffff;
+  width: 1440px;
+  height: 346px;
+  position: absolute;
+  left: 0px;
+  top: 1277px;
+  overflow: hidden;
+}
+.frame-46 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 133px;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: static;
+}
+.ellipse-12 {
+  background: #ffb600;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: 0px;
+}
+.mdi-flask-round-bottom {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% - 78.5px);
+  overflow: visible;
+}
+.programs4 {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-regular-heading-1-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-heading-1-font-size, 72px);
+  line-height: var(--raleway-regular-heading-1-line-height, 100%);
+  font-weight: var(--raleway-regular-heading-1-font-weight, 400);
+  position: relative;
+}
+.polygon-1 {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  left: 790px;
+  top: 59.92px;
+  transform: translate(-130.62px, -59.92px);
+  overflow: visible;
+}
+.group-7 {
+  position: absolute;
+  inset: 0;
+}
+.mdi-folder-open2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - -590px);
+  top: calc(50% - 124px);
+  transform: translate(0px, -49px);
+  overflow: visible;
+}
+.rectangle-27 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-width: 20px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 1240px;
+  top: 36.74px;
+  transform-origin: 0 0;
+  transform: rotate(-35.008deg) scale(1, 1);
+}
+.what-we-do2 {
+  background: #ffffff;
+  width: 1440px;
+  height: 930px;
+  position: absolute;
+  left: 0px;
+  top: 1623px;
+  overflow: hidden;
+}
+.rectangle-26 {
+  width: 1440px;
+  height: 930px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-25 {
+  background: rgba(38, 0, 44, 0.7);
+  width: 1312px;
+  height: 930px;
+  position: absolute;
+  left: 64px;
+  top: 0px;
+  backdrop-filter: blur(2px);
+}
+.frame-45 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1312px;
+  position: absolute;
+  left: calc(50% - 656px);
+  top: calc(50% - 336px);
+}
+.frame-13 {
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 313px;
+  height: 672px;
+  position: relative;
+}
+.rectangle-13 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 280px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-103 {
+  padding: 0px 16px 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-92 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.summer-bootcamp {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-heading-6-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-6-font-size, 24px);
+  line-height: var(--raleway-semi-bold-heading-6-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-heading-6-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.our-summer-boot-camps-are-very-unique-for-we-use-the-platform-to-introduce-and-train-kids-and-teens-on-emerging-technology-every-year-we-partner-with-schools-and-smaller-organizations-to-train-over-500-kids-and-teens-on-ar-vr-workshops-3-d-modelling-drone-technology-3-d-printing-wearable-technology-robotics-and-iot {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-body-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-body-font-size, 16px);
+  line-height: var(--raleway-regular-body-line-height, 150%);
+  font-weight: var(--raleway-regular-body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.primary-button6 {
+  background: #131314;
+  border-radius: 8px;
+  padding: 16px 10px 16px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 120px;
+  height: 40px;
+  position: relative;
+}
+.frame-18 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 313px;
+  height: 672px;
+  position: relative;
+}
+.weekend-online-classes {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-heading-6-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-6-font-size, 24px);
+  line-height: var(--raleway-semi-bold-heading-6-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-heading-6-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.our-unique-tech-boot-camps-blend-virtual-and-physical-training-supported-by-an-interactive-e-learning-platform-participants-explore-subjects-like-ar-vr-3-d-modelling-drone-technology-3-d-printing-wearable-technology-robotics-and-io-t-this-approach-encourages-hands-on-learning-and-innovation {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-body-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-body-font-size, 16px);
+  line-height: var(--raleway-regular-body-line-height, 150%);
+  font-weight: var(--raleway-regular-body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-15 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 313px;
+  height: 672px;
+  position: relative;
+}
+.teen-techpreneurship {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-heading-6-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-6-font-size, 24px);
+  line-height: var(--raleway-semi-bold-heading-6-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-heading-6-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.our-objective-is-to-create-an-interactive-learning-platform-to-train-young-aspiring-tech-entrepreneurs-in-entrepreneurship-business-management-and-technical-skills-that-will-ultimately-translate-into-improved-efficiency-and-productivity-and-to-kindle-an-entrepreneurial-spirit-whereby-teens-can-think-outside-the-box-and-nurture-unconventional-tale {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-body-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-body-font-size, 16px);
+  line-height: var(--raleway-regular-body-line-height, 150%);
+  font-weight: var(--raleway-regular-body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-17 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 313px;
+  height: 672px;
+  position: relative;
+}
+.bss-beyond-secondary-school {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-heading-6-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-6-font-size, 24px);
+  line-height: var(--raleway-semi-bold-heading-6-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-heading-6-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.to-bridge-this-gap-our-organization-launching-tech-career-pathway-offering-three-to-six-months-tech-program-in-the-following-career-programs-software-developer-game-developer-ai-data-science-and-multimedia-design-we-offer-mentorship-programs-were-the-students-will-have-the-opportunity-to {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-body-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-body-font-size, 16px);
+  line-height: var(--raleway-regular-body-line-height, 150%);
+  font-weight: var(--raleway-regular-body-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-59 {
+  display: flex;
+  flex-direction: row;
+  gap: 1200px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 260px;
+}
+.chevron-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-17 {
+  background: var(--purple-50, #fbe5ff);
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.mdi-chevron-left {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.mdi-chevron-right {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.frame-30 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 65px);
+  top: 845px;
+}
+.ellipse-4 {
+  background: #ffffff;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.ellipse-5 {
+  background: #b4b3b3;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.ellipse-6 {
+  background: #b4b3b3;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.ellipse-7 {
+  background: #b4b3b3;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.what-we-do3 {
+  background: #ffffff;
+  width: 1440px;
+  height: 346px;
+  position: absolute;
+  left: 0px;
+  top: 2553px;
+  overflow: hidden;
+}
+.frame-462 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 124.5px);
+  top: 133px;
+}
+.mdi-account {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% - 78.5px);
+  overflow: visible;
+}
+.about {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-regular-heading-1-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-heading-1-font-size, 72px);
+  line-height: var(--raleway-regular-heading-1-line-height, 100%);
+  font-weight: var(--raleway-regular-heading-1-font-weight, 400);
+  position: relative;
+}
+.polygon-12 {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  left: 790px;
+  top: 59.92px;
+  transform: translate(-130.62px, -59.92px);
+  overflow: visible;
+}
+.group-8 {
+  position: absolute;
+  inset: 0;
+}
+.mdi-account2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - -577.36px);
+  top: calc(50% - 143.28px);
+  transform: translate(0px, -29.72px);
+  overflow: visible;
+}
+.rectangle-272 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-width: 20px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 1228px;
+  top: 17.74px;
+  transform-origin: 0 0;
+  transform: rotate(-35.008deg) scale(1, 1);
+}
+.curriculum {
+  background: #ffffff;
+  width: 1440px;
+  height: 346px;
+  position: absolute;
+  left: 0px;
+  top: 6154px;
+  overflow: hidden;
+}
+.frame-463 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 238.5px);
+  top: 133px;
+}
+.group-62 {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: visible;
+}
+.curriculum2 {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-regular-heading-1-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-heading-1-font-size, 72px);
+  line-height: var(--raleway-regular-heading-1-line-height, 100%);
+  font-weight: var(--raleway-regular-heading-1-font-weight, 400);
+  position: relative;
+}
+.polygon-13 {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  left: 790px;
+  top: 60.92px;
+  transform: translate(-130.62px, -60px);
+  overflow: visible;
+}
+.group-72 {
+  height: auto;
+  position: absolute;
+  left: calc(50% - -508px);
+  top: calc(50% - 152.26px);
+  transform: translate(0px, -20.74px);
+  overflow: visible;
+}
+.courses3 {
+  background: #ffffff;
+  width: 1440px;
+  height: 639px;
+  position: absolute;
+  left: 0px;
+  top: 6500px;
+  overflow: hidden;
+}
+.rectangle-262 {
+  width: 1440px;
+  height: 639px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-274 {
+  background: rgba(38, 0, 44, 0.7);
+  width: 1312px;
+  height: 639px;
+  position: absolute;
+  left: 64px;
+  top: 0px;
+  backdrop-filter: blur(2px);
+}
+.courses4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: absolute;
+  left: calc(50% - 656px);
+  top: 60px;
+}
+.frame-53 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 169px;
+}
+.group-1 {
+  flex-shrink: 0;
+  width: 313px;
+  height: 317px;
+  position: static;
+}
+.rectangle-18 {
+  border-radius: 20px 0px 29px 0px;
+  width: 313px;
+  height: 317px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.frame-29 {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px 10px 4px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - 568.5px);
+  top: 261px;
+}
+.gaming {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-mediums-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-mediums-font-size, 18px);
+  line-height: var(--raleway-semi-bold-mediums-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-mediums-font-weight, 600);
+  position: relative;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 312px;
+  height: 317px;
+  position: static;
+}
+.rectangle-182 {
+  border-radius: 20px 0px 29px 0px;
+  width: 312px;
+  height: 317px;
+  position: absolute;
+  left: 333px;
+  top: 0px;
+  object-fit: cover;
+}
+.frame-292 {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px 10px 4px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - 246.5px);
+  top: 261px;
+}
+.coding {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-mediums-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-mediums-font-size, 18px);
+  line-height: var(--raleway-semi-bold-mediums-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-mediums-font-weight, 600);
+  position: relative;
+}
+.group-3 {
+  flex-shrink: 0;
+  width: 313px;
+  height: 317px;
+  position: static;
+}
+.rectangle-183 {
+  border-radius: 20px 0px 29px 0px;
+  width: 313px;
+  height: 317px;
+  position: absolute;
+  left: 665px;
+  top: 0px;
+  object-fit: cover;
+}
+.frame-293 {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px 10px 4px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 216px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - -58.5px);
+  top: 261px;
+}
+.multimedia-design {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-mediums-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-mediums-font-size, 18px);
+  line-height: var(--raleway-semi-bold-mediums-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-mediums-font-weight, 600);
+  position: relative;
+}
+.group-4 {
+  flex-shrink: 0;
+  width: 313px;
+  height: 317px;
+  position: static;
+}
+.rectangle-184 {
+  border-radius: 20px 0px 29px 0px;
+  width: 313px;
+  height: 317px;
+  position: absolute;
+  left: 998px;
+  top: 0px;
+  object-fit: cover;
+}
+.frame-294 {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px 10px 4px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 248px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - -375.5px);
+  top: 261px;
+}
+._3-d-design-3-d-printing {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-mediums-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-mediums-font-size, 18px);
+  line-height: var(--raleway-semi-bold-mediums-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-mediums-font-weight, 600);
+  position: relative;
+}
+.chevron-right2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1320px;
+  top: 281px;
+}
+.mdi-chevron-right2 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.chevron-right3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 281px;
+}
+.mdi-chevron-left2 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.frame-302 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: 550px;
+}
+.events2 {
+  background: #ffffff;
+  width: 1440px;
+  height: 346px;
+  position: absolute;
+  left: 0px;
+  top: 7139px;
+  overflow: hidden;
+}
+.frame-464 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 140px);
+  top: 133px;
+}
+.mdi-clock {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 30.22px);
+  top: calc(50% - 78.78px);
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.events3 {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-regular-heading-1-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-heading-1-font-size, 72px);
+  line-height: var(--raleway-regular-heading-1-line-height, 100%);
+  font-weight: var(--raleway-regular-heading-1-font-weight, 400);
+  position: relative;
+}
+.polygon-14 {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  left: 790px;
+  top: 59.92px;
+  transform: translate(-130.62px, -59.92px);
+  overflow: visible;
+}
+.mdi-clock2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - -583px);
+  top: calc(50% - 131px);
+  transform: translate(0px, -42px);
+  overflow: visible;
+}
+.rectangle-275 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: var(
+    --angular,
+    conic-gradient(
+      from 143.52deg at 50% 50%,
+      rgba(188, 0, 221, 1) 33.33333432674408%,
+      rgba(7, 132, 195, 1) 50.52083134651184%,
+      rgba(255, 182, 0, 1) 96.35416865348816%
+    )
+  );
+  border-width: 20px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 1233px;
+  top: 29.74px;
+  transform-origin: 0 0;
+  transform: rotate(-35.008deg) scale(1, 1);
+}
+.upccoming-events {
+  background: #ffffff;
+  width: 1440px;
+  height: 604px;
+  position: absolute;
+  left: 0px;
+  top: 7485px;
+  overflow: hidden;
+}
+.upcoming-events {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-semi-bold-heading-4-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-heading-4-font-size, 36px);
+  line-height: var(--raleway-semi-bold-heading-4-line-height, 125%);
+  font-weight: var(--raleway-semi-bold-heading-4-font-weight, 600);
+  position: absolute;
+  left: calc(50% - 656px);
+  top: 64px;
+}
+.rectangle-132 {
+  border-radius: 16px 0px 16px 0px;
+  width: 353px;
+  height: 380px;
+  position: absolute;
+  left: 155px;
+  top: 173px;
+  object-fit: cover;
+}
+.rectangle-14 {
+  border-radius: 16px 0px 16px 0px;
+  width: 353px;
+  height: 380px;
+  position: absolute;
+  left: 544px;
+  top: 173px;
+  object-fit: cover;
+}
+.rectangle-152 {
+  border-radius: 16px 0px 16px 0px;
+  border-style: solid;
+  border-color: var(--black-600, #636369);
+  border-width: 1px;
+  width: 353px;
+  height: 380px;
+  position: absolute;
+  left: 932px;
+  top: 173px;
+  object-fit: cover;
+}
+.chevron-right4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1320px;
+  top: 353px;
+}
+.mdi-chevron-right3 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.chevron-right5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 353px;
+}
+.mdi-chevron-left3 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.blog-and-news {
+  background: #ffffff;
+  width: 1440px;
+  height: 346px;
+  position: absolute;
+  left: 0px;
+  top: 8916px;
+  overflow: hidden;
+}
+.frame-465 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 248px);
+  top: 133px;
+}
+.mdi-newspaper-variant-outline2 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% - 78.5px);
+  overflow: visible;
+}
+.blog-news3 {
+  color: var(--black-500, #131314);
+  text-align: center;
+  font-family: var(
+    --raleway-regular-heading-1-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-heading-1-font-size, 72px);
+  line-height: var(--raleway-regular-heading-1-line-height, 100%);
+  font-weight: var(--raleway-regular-heading-1-font-weight, 400);
+  position: relative;
+}
+.polygon-15 {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+  left: 790px;
+  top: 59.92px;
+  transform: translate(-130.62px, -59.92px);
+  overflow: visible;
+}
+.mdi-newspaper-variant-outline3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: calc(50% - -590px);
+  top: calc(50% - 124px);
+  transform: translate(0px, -49px);
+  overflow: visible;
+}
+.news-and-blog {
+  background: #ffffff;
+  width: 1440px;
+  height: 723px;
+  position: absolute;
+  left: 0px;
+  top: 9262px;
+  overflow: hidden;
+}
+.rectangle-263 {
+  width: 1440px;
+  height: 737px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.rectangle-282 {
+  background: rgba(38, 0, 44, 0.7);
+  width: 1312px;
+  height: 723px;
+  position: absolute;
+  left: 64px;
+  top: 0px;
+  backdrop-filter: blur(2px);
+}
+.frame-60 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1312px;
+  position: absolute;
+  left: 64px;
+  top: 64px;
+}
+.frame-56 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  height: 570px;
+  position: relative;
+}
+.rectangle-133 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 303px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-54 {
+  padding: 0px 12px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-562 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wificomabat-stuedents-exhibit-tech-projects-to-german-delegates-from-dld {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-mediums-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-mediums-font-size, 18px);
+  line-height: var(--raleway-semi-bold-mediums-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-mediums-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.wificombat-our-organization-had-the-honour-of-showcasing-the-impressive-tech-skills-of-our-wifiteens-thanks-to-asubiojomoyo-the-gm-of-vibraniumvalley-during-the-gtlobaltechafrica-event-held-at-vibranium-valley {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-bodys-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-bodys-font-size, 14px);
+  line-height: var(--raleway-regular-bodys-line-height, 125%);
+  font-weight: var(--raleway-regular-bodys-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-55 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  height: 570px;
+  position: relative;
+}
+.frame-542 {
+  padding: 0px 12px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 251px;
+  position: relative;
+}
+.wificomabat-stuedents-win-big-at-the-gta-conference {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-mediums-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-mediums-font-size, 18px);
+  line-height: var(--raleway-semi-bold-mediums-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-mediums-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.students-were-awarded-n-200-00-at-the-gta-conference-competition-schools-like-julliard-academy-halifdield-school-childville-school-and-students-of-the-wificombat-academy-participated-in-the-competition {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-bodys-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-bodys-font-size, 14px);
+  line-height: var(--raleway-regular-bodys-line-height, 125%);
+  font-weight: var(--raleway-regular-bodys-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-57 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 400px;
+  height: 570px;
+  position: relative;
+}
+.frame-543 {
+  padding: 0px 12px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wificombat-students-got-to-conrad-finals {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-semi-bold-mediums-font-family,
+    "Raleway-SemiBold",
+    sans-serif
+  );
+  font-size: var(--raleway-semi-bold-mediums-font-size, 18px);
+  line-height: var(--raleway-semi-bold-mediums-line-height, 150%);
+  font-weight: var(--raleway-semi-bold-mediums-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.halifield-schools-emerged-finalists-at-the-connrad-challenge-competition-they-built-a-power-management-device-and-an-app-designed-to-address-power-challenges-in-homes-due-to-high-tariffs {
+  color: var(--black-500, #131314);
+  text-align: left;
+  font-family: var(
+    --raleway-regular-bodys-font-family,
+    "Raleway-Regular",
+    sans-serif
+  );
+  font-size: var(--raleway-regular-bodys-font-size, 14px);
+  line-height: var(--raleway-regular-bodys-line-height, 125%);
+  font-weight: var(--raleway-regular-bodys-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-58 {
+  display: flex;
+  flex-direction: row;
+  gap: 1200px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 64px;
+  top: 289px;
+}
+.rectangle-172 {
+  background: #d9d9d9;
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  position: relative;
+}
+.mdi-chevron-left4 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.mdi-chevron-right4 {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: calc(50% - 22px);
+  top: calc(50% - 22px);
+  overflow: visible;
+}

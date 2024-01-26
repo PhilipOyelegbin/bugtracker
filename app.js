@@ -1,28 +1,28 @@
 // background carousel for header
-$(document).ready(function() {
+$("#header").ready(function() {
     var images = [
-      "url('./images/slide\ show=show\ 1.png')",
-      "url('./images/slide\ show=show\ 2.png')",
-      "url('./images/slide\ show=show\ 3.png')",
-      "url('./images/slide\ show=show4.png')",
-      "url('./images/show5.png')",
-      "url('./images/show6.png')",
-      "url('./images/slide\ show=show8.png')",
-      "url('./images/slide\ show=show9.png')",
-      "url('./images/slide\ show=show10.png')",
-      "url('./images/slide\ show=show11.png')"
-      // Add more URLs as needed
+      "url('./images/hero1.png')",
+      "url('./images/hero2.png')",
+      "url('./images/hero3.png')",
+      "url('./images/hero4.png')",
+      "url('./images/hero5.png')",
+      "url('./images/hero6.png')",
+      "url('./images/hero7.png')",
+      "url('./images/hero8.png')",
+      "url('./images/hero9.png')",
+      "url('./images/hero10.png')"
     ];
     var currentIndex = 0;
 
     function changeBackground() {
-      $('.carousel-item').css('background-image', images[currentIndex]);
+      $('.header-carousel').css('background-image', images[currentIndex]);
       currentIndex = (currentIndex + 1) % images.length;
       setTimeout(changeBackground, 5000); // Change image every 5 seconds
     }
 
     changeBackground();
 });
+// end
 
 // active state of the navigation
 // $(document).ready(function() {
@@ -33,3 +33,37 @@ $(document).ready(function() {
 //       }
 //     });
 // });
+
+// programs carousel
+const multipleItemCarousel = document.querySelector("#programs-carousel");
+
+if(window.matchMedia("(min-width:768px)").matches) {
+  const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+    interval: false,
+  })
+  
+  let carouselWidth = $(".program-list")[0].scrollWidth;
+  let cardWidth = $(".program").width();
+  let scrollPosition = 0;
+  
+  $(".carousel-control-prev").on('click', function() {
+    if (scrollPosition > 0) {
+      scrollPosition = scrollPosition - cardWidth;
+      $(".program-list").animate({
+        scrollLeft: scrollPosition
+      }, 500)
+    }
+  });
+  
+  $(".carousel-control-next").on('click', function() {
+    if (scrollPosition < (carouselWidth - (cardWidth * 4))) {
+      scrollPosition = scrollPosition + cardWidth;
+      $(".program-list").animate({
+        scrollLeft: scrollPosition
+      }, 500)
+    }
+  });
+} else {
+  $(multipleItemCarousel).addClass("slide");
+}
+// end

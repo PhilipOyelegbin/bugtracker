@@ -1,54 +1,52 @@
-.carousel-item {
+/* hero section */
+#header .carousel-item {
     height: 100svh;
     background-size: cover;
     background-position: center;
 }
-
 .carousel-overlay {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 .nav-cards {
-    background-color: #191a1baf;
+    background: rgba(19, 19, 20, 0.6);
     padding: 10px;
-    border-radius: 10px;
-    color: #2e6cdf;
-    width: 120px;
-    height: 150px;
-    position: relative;
-}
-
-.nav-cards > a {
     display: flex;
-    flex-flow: column;
-    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
-    text-decoration: none;
+    justify-content: center;
     text-align: center;
-    height: 100%;
+    flex-shrink: 0;
+    width: 130px;
+    height: 200px;
+    position: relative;
+    text-decoration: none;
+    transition: ease-in-out 300ms;
 }
-
-.nav-cards > a > h5 {
+.nav-cards > h5 {
     color: #fff;
 }
-
 /* .nav-cards :active {
     background-color: #2e6cdf;
     color: #fff;
 } */
-
-.nav-cards :hover {
+.nav-cards:hover {
     background-color: #2e6cdf;
     color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    width: inherit;
-    height: inherit;
 }
+.hero-icon {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: visible;
+}
+/* end */
 
+/* gallery */
 .gallery-container {
     padding: 0 20px;
     margin: 0 auto;
@@ -65,4 +63,166 @@
     border-radius: inherit;
     width: inherit;
     height: inherit;
+}
+/* end */
+
+/* programs carousel */
+.section-heading {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0 20px;
+}
+.section-heading > svg {
+    color: #ffb600;
+}
+.program-container {
+    background: #413f3f url('images/rectangle-260.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 20px;
+}
+.program-list {
+    display: flex;
+    padding: 1em;
+}
+.card {
+    margin: 0 .5em;
+    border-radius: 8px;
+    height: 100vh;
+}
+.carousel-control-prev .carousel-control-prev-icon {
+    width: 6vh;
+    height: 6vh;
+    background-color: #a166ab;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-control-next .carousel-control-next-icon {
+    width: 6vh;
+    height: 6vh;
+    background-color: #a166ab;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    /* position:absolute;
+    right: -10%;
+    border:  solid #000;
+    border-width: 0 4px 4px 0;
+    transform: rotate(-45deg);
+    display: inline-block;
+    padding: 10px; */
+}
+/* end */
+
+/* circular progressbar */
+.impacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.progressbar{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.progressbar > .outer {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(225, 225, 225, 0.7);
+}
+.progressbar > .outer > .inner {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(225, 225, 225, 0.7),
+                -0.5px -0.5px 0px rgba(225, 225, 225, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+#number {
+    text-align: center;
+    font-weight: 700;
+}
+circle {
+    fill: none;
+    stroke: url("#GradientColor");
+    stroke-width: 20px;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: revolve 2s linear forwards;
+}
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes revolve {
+    100%{
+        stroke-dashoffset: 150; /* 500-500*0.70 */
+    }
+}
+/* end */
+
+/* gradient border */
+.gradient-border {
+    --borderWidth: 3px;
+    background: #fff;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(5 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+/* end */
+
+
+@media (min-width: 768px) {
+    /* program carousel */
+    .program-container {
+        padding: 40px;
+    }
+    .program-container > .carousel {
+        width: 90%;
+        margin: auto;
+    }
+    .program-list {
+        display: flex;
+    }
+    .program-list .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/4);
+    }
+    /* end */    
+}
+
+
+
+@media only screen and (max-width: 990px){
+    /* circular progress bar */
+    .progress{ margin-bottom: 20px; }
+    /* end */
 }
