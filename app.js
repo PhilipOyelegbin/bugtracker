@@ -1,5 +1,20 @@
-// background carousel for header
-$("#header").ready(function() {
+// header onscroll event
+const topNav = document.getElementById('nav');
+const heroSection = document.getElementById('hero');
+const heroSectionHeight = heroSection.clientHeight;
+const scrollThreshold = 50; // Adjust as needed
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY < heroSectionHeight - scrollThreshold) {
+    topNav.classList.add('hidden');
+  } else {
+    topNav.classList.remove('hidden');
+  }
+});
+// end
+
+// background carousel for hero
+$("#hero").ready(function() {
     var images = [
       "url('./images/hero1.png')",
       "url('./images/hero2.png')",
@@ -15,7 +30,7 @@ $("#header").ready(function() {
     var currentIndex = 0;
 
     function changeBackground() {
-      $('.header-carousel').css('background-image', images[currentIndex]);
+      $('.hero-carousel').css('background-image', images[currentIndex]);
       currentIndex = (currentIndex + 1) % images.length;
       setTimeout(changeBackground, 5000); // Change image every 5 seconds
     }
