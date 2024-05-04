@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppin = Poppins({ subsets: ["latin"], weight: ["300", "500", "700"] });
 
 export const metadata: Metadata = {
-  title: "Issue Tracker",
+  title: "Bug Tracker",
   description: "An issue tracking application",
 };
 
@@ -18,9 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={poppin.className}>
         <Navbar/>
-        <main>{children}</main>
+        <main className="p-5 lg:px-20 h-svh overflow-y-scroll">{children}</main>
         <Footer/>
       </body>
     </html>

@@ -1,8 +1,12 @@
-import React from 'react'
+import Link from "next/link"
 
 function IssuesPage() {
   return (
-    <div>IssuesPage</div>
+    <article>
+      <Link className="btn" href="/issues/new">
+        New Issue
+      </Link>
+    </article>
   )
 }
 

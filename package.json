@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "easymde": "^2.18.0",
     "next": "14.2.3",
     "prisma": "^5.13.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.2.0"
+    "react-hook-form": "^7.51.4",
+    "react-icons": "^5.2.0",
+    "react-simplemde-editor": "^5.2.0"
   },
   "devDependencies": {
     "@types/node": "^20",
