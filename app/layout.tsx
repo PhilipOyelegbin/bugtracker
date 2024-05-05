@@ -3,6 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const poppin = Poppins({ subsets: ["latin"], weight: ["300", "500", "700"] });
 
@@ -22,6 +24,7 @@ export default function RootLayout({
         <Navbar/>
         <main className="p-5 lg:px-20 h-svh overflow-y-scroll">{children}</main>
         <Footer/>
+        <ToastContainer closeButton autoClose={1500} position="top-right" hideProgressBar={false} newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss draggable pauseOnHover/>
       </body>
     </html>
   );
