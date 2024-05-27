@@ -6,7 +6,7 @@ import { FaBug } from "react-icons/fa";
 export const Navbar = () => {
   const links = [
     { navlink: "/", label: "Dashboard" },
-    { navlink: "/issues", label: "Issues" },
+    { navlink: "/bugs", label: "Bugs" },
   ];
 
   const currentPath = usePathname();
