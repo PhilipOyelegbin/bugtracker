@@ -1,8 +1,11 @@
+import { BugStats } from "./components/BugStats";
+import { Profile } from "./components/Profile";
 
 export default function Home() {
   return (
     <article>
-      <h3>A bug tracking application...</h3>
+      <Profile/>
+      <BugStats/>
     </article>
   );
 }

@@ -1,9 +1,9 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { ErrorMessage } from "@/app/(components)/ErrorMessage";
+import { ErrorMessage } from "@/app/components/ErrorMessage";
 import SimpleMDE from "react-simplemde-editor";
 import "easymde/dist/easymde.min.css";
-import { Spinner } from "@/app/(components)/Spinner";
+import { Spinner } from "@/app/components/Spinner";
 import { useState } from "react";
 
 const NewIssuePage = () => {
@@ -40,7 +40,6 @@ const NewIssuePage = () => {
           placeholder='Title'
           onChange={handleChange}
         />
-        {/* <ErrorMessage>{errors.title?.message}</ErrorMessage> */}
         <select
           className='rounded-md p-2 border bg-transparent'
           name='status'
@@ -87,7 +86,6 @@ const NewIssuePage = () => {
           placeholder='State the issue here'
           onChange={handleChange}
         />
-        {/* <ErrorMessage>{errors.description?.message}</ErrorMessage> */}
         <button
           disabled={submitting}
           className='btn w-max flex gap-3 items-center disabled:bg-slate-500'

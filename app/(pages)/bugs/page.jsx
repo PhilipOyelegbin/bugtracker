@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { BugCard } from "./(components)/BugCard";
-import { Skeleton } from "./(components)/Skeleton";
+import { BugCard } from "./components/BugCard";
+import { Skeleton } from "./components/Skeleton";
 
 const BugPage = () => {
   const [loading, setLoading] = useState(true);

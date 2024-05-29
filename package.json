@@ -1,10 +1,10 @@
 {
-  "name": "wca",
+  "name": "bugtracker",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build & prima generate",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
