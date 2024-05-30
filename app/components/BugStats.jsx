@@ -26,14 +26,23 @@ export const BugStats = () => {
 
   return (
     <section className='mt-10'>
+      <h2>Bug Statistics</h2>
       {error && <p className='text-center text-red-500'>{error}</p>}
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-5 text-white mt-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-white mt-10'>
         {loading
-          ? Array(3)
+          ? Array(4)
               .fill(0)
               .map((d, index) => <Skeleton key={index} />)
           : bugData && (
               <>
+                <div className='bug-container bg-blue-500'>
+                  <div className='bug-item'>
+                    <span className='flex items-center gap-2'>
+                      {bugData.length} <FaBug />
+                    </span>
+                    <span>Total</span>
+                  </div>
+                </div>
                 <div className='bug-container bg-red-500'>
                   <div className='bug-item'>
                     <span className='flex items-center gap-2'>

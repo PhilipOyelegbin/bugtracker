@@ -2,7 +2,7 @@ import { FaPen } from "react-icons/fa";
 
 export const Profile = () => {
   return (
-    <section className='flex justify-between items-start'>
+    <section className='flex justify-between gap-20 items-start'>
       <div className='flex flex-col gap-2'>
         <h2>Welcome Full name</h2>
         <p>Full name:</p>
@@ -10,7 +10,7 @@ export const Profile = () => {
         <p>Phone number:</p>
         <p>Role:</p>
       </div>
-      <FaPen className='cursor-pointer text-blue-500' />
+      <FaPen className='cursor-pointer text-2xl text-blue-500' />
     </section>
   );
 };
