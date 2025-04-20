@@ -9,7 +9,8 @@ export const RecentBugs = () => {
 
   const opendedBug = bugData
     ?.filter((bug) => bug.status === "Open")
-    .sort((bug1, bug2) => bug2.id - bug1.id);
+    .sort((bug1, bug2) => bug2.id - bug1.id)
+    .slice(0, 5);
 
   console.log(opendedBug);
 
